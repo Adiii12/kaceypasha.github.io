@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: system-ui, sans-serif;
+  font-size: 1.15rem;
+}
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 100px 0px;
+  background: #000;
+  color: #fff;
+}
+header .ad5-text-center {
+  max-width: 600px;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 30px;
+}
+p {
+  text-align: justify;
+  color: #fff;
+}
+a {
+  color: #1746a2;
+  font-weight: 600;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+
+.ad5-max-width-adaptive-sm {
+  max-width: 600px;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.author--meta {
+  max-width: 600px;
+  margin: auto;
+  width: 90%;
+}
+a.author__img-wrapper {
+  height: 45px;
+  border: 1px solid #fff;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  overflow: hidden;
+}
+a.author__img-wrapper img {
+  height: 100%;
+}
+.author.author--meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.author.author--meta a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.author.author--meta p {
+  font-size: 0.8rem;
+}
+
+.footer {
+  padding: 20px 0px;
+  background: #000;
+}
+.footer .inner {
+  color: aqua;
+  max-width: 600px;
+  width: 90%;
+  margin: auto;
+}
+.footer .inner .row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer .inner .row a img {
+  width: 30px;
+}
+/* .footer .inner .row a img:nth-last-child(1){
+  margin: 0px 10px;
+} */
+
+.footer .inner .email {
+  text-align: left;
+  display: block;
+  color: #fff;
+}
